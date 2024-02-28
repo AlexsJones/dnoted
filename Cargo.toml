@@ -1,9 +1,11 @@
 [package]
-name = "noted"
+name = "dnoted"
 version = "0.1.0"
 edition = "2021"
 description = "A simple tool to leave yourself notes in directories"
 license = "MIT"
+homepage = "https://github.com/AlexsJones/dnoted.git"
+repository = "https://github.com/AlexsJones/dnoted.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
