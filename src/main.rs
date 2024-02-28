@@ -50,7 +50,7 @@ fn main() {
             let remove = storage.remove(cwd.to_str().unwrap());
             match remove {
                 Ok(_) => println!("{}:{}","Note removed for:".blue(), cwd.to_str().unwrap(),),
-                Err(e) => {}
+                Err(_e) => {}
             }
         }
     }
